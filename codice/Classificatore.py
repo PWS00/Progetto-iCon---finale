@@ -15,7 +15,7 @@ def classificatore():
     while(pesce !='acciuga' and pesce !='merluzzo' and pesce !='sgombro' and pesce !='pesce_spada' and pesce !='palamita' and pesce !='rana_pescatrice' and pesce !='sardina' and pesce !='lampuga' and pesce !='alaccia' and pesce !='cernia' and pesce !='triglia' and pesce !='tonno'):
             pesce = input("Inserisci il pesce che vorresti pescare (es: tonno): ")
             if(pesce !='acciuga' and pesce !='merluzzo' and pesce !='sgombro' and pesce !='pesce_spada' and pesce !='palamita' and pesce !='rana_pescatrice' and pesce !='sardina' and pesce !='lampuga' and pesce !='alaccia' and pesce !='cernia' and pesce !='triglia' and pesce !='tonno'):
-                print("Inserisci un pesce valido!")
+                print("Inserisci un pesce tra: acciuga, merluzzo, sgombro, pesce_spada, palamita, rana_pescatrice, sardina, lampuga, alaccia, cernia, triglia, tonno\n")
             if (pesce == 'acciuga'):
                 parametroPesce = 1
             if (pesce == 'merluzzo'):
